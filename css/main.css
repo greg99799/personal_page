@@ -74,6 +74,11 @@ nav li {
     display: inline-block;
 }
 
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
 
 
 
@@ -87,6 +92,12 @@ footer {
     clear: both;
     padding-top: 50px;
     color: #ccc;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px
+    margin: 0 5px;
 }
 
 
