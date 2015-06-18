@@ -26,6 +26,9 @@
         clear: left;
     }
 
+    #overlay img {
+        max-width: 30%;
+    }
 
     /**********************
     PAGE: ABOUT
