@@ -127,13 +127,13 @@ section h2 {
 PAGE: PORTFOLIO
 ***********************/
 
-#gallery {
+#imageGallery {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-#gallery li {
+#imageGallery li {
     float: left;
     width: 45%;
     margin: 2.5%;
@@ -141,11 +141,32 @@ PAGE: PORTFOLIO
     color: #939699;
 }
 
-#gallery li a p {
+#imageGallery li a p {
     margin: 0;
     padding: 5%;
     font-size: 0.75em;
     color: #939699;
+}
+
+#overlay {
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
+}
+
+#overlay img {
+    margin-top: 10%;
+    max-width: 30%;
+
+}
+
+#overlay p {
+    color: white;
 }
 
 
