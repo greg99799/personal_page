@@ -2,6 +2,8 @@
 GENERAL
 ***********************/
 
+$hover-color: #056903;
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -25,7 +27,7 @@ h3 {
 }
 
 a:hover {
-    color: #056903;   
+    color: $hover-color;   
 }
 
 
